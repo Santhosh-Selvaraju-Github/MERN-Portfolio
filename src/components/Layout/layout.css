@@ -1,0 +1,81 @@
+.sidebar-section {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+.sidebar {
+  height: 100vh;
+  background-color: #1e1e2c;
+  width: 90px;
+  position: fixed;
+}
+.sidebar-toggle {
+  width: 230px;
+}
+.sidebar-toggle-icons {
+  display: flex;
+  justify-content: right;
+}
+.sidebar-toggle-icons p {
+  cursor: pointer;
+}
+.sidebar-toggle-icons svg {
+  background-color: #ff7f50;
+  color: white;
+  margin-top: 30px;
+}
+.home-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: black;
+}
+.about-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 450px;
+}
+.experience-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 920px;
+  background-color: rgb(255, 246, 127);
+}
+.techstack-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 670px;
+  background-color: aqua;
+}
+.projects-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 650px;
+  background-color:#cdcdfc;
+}
+.education-container{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 280px;
+  background-color: #ff7f50;
+}
+.contact-container{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 570px;
+  background-color: #ff7f50;
+}
+.footer-container{
+  padding: 13px 320px;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  background-color: yellow;
+  text-align: center;
+}

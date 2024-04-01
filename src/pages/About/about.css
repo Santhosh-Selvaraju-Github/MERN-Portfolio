@@ -1,0 +1,28 @@
+.about-content {
+  display: flex;
+  margin-left: 230px;
+}
+.profile-img {
+  margin: 50px 40px 50px 80px;
+}
+.profile-img img {
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+.about {
+  margin: 50px 100px 50px 30px;
+}
+.about h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: #5D6D7E ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.about p {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: large;
+  color: rgb(95, 95, 95);
+}

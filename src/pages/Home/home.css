@@ -1,0 +1,26 @@
+.home-content {
+  height: 300px;
+  color: white;
+  align-items: center;
+  padding: 60px 80px;
+  margin-left: 230px;
+}
+.home-content h1 {
+  font-family: "Robato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+.home-content h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #e0b50f;
+  margin-top: 20px;
+  letter-spacing: 0.25rem;
+}
+.btn-hire:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  background-color: #ff7f50;
+}
