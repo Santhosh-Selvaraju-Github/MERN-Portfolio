@@ -1,13 +1,14 @@
 .home-content {
-  height: 300px;
   color: white;
   align-items: center;
-  padding: 60px 80px;
+  padding: 200px 80px;
   margin-left: 230px;
+  height: 600px;
 }
 .home-content h1 {
   font-family: "Robato", sans-serif;
   font-weight: 600;
+  font-size: 50px;
   font-style: normal;
   letter-spacing: 0.1rem;
 }
@@ -23,4 +24,14 @@
   transform: scale(1.1);
   transition: 0.3s;
   background-color: #ff7f50;
+}
+.jobpic {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 100px;
+}
+.jobpic img {
+  height: 450px;
+  width: 450px;
+  margin-left: 50px;
 }

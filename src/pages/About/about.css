@@ -3,7 +3,7 @@
   margin-left: 230px;
 }
 .profile-img {
-  margin: 50px 40px 50px 80px;
+  margin: 100px 40px 50px 100px;
 }
 .profile-img img {
   height: 350px;
@@ -11,18 +11,23 @@
   border-radius: 10px;
 }
 .about {
-  margin: 50px 100px 50px 30px;
+  margin: 120px 100px 50px 50px;
 }
 .about h1 {
   text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 5px;
-  color: #5D6D7E ;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  color: #138781;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.about hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
 }
 .about p {
   text-align: justify;
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: large;
-  color: rgb(95, 95, 95);
+  color: #1e1e2c;
+  line-height: 2rem;
 }

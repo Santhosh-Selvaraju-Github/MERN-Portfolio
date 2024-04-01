@@ -1,15 +1,18 @@
 import React from "react";
 import "./techstack.css";
 import { TechstackList } from "../../utils/TechStackList";
+import { Fade } from "react-reveal";
 
 const TechStack = () => {
   return (
     <>
       <div className="techstack-content" id="teckStack">
-        <div className="techstack-heading">
-          <h2>Technologies Stack</h2>
-          <hr />
-        </div>
+        <Fade left>
+          <div className="techstack-heading">
+            <h2>Technologies Stack</h2>
+            <hr />
+          </div>
+        </Fade>
         <div className="row">
           {TechstackList.map((tech) => (
             <>

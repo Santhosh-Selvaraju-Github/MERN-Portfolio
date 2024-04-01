@@ -11,115 +11,134 @@ import {
   FcBiotech,
   FcReadingEbook,
   FcVideoProjector,
+  FcRating,
   // FcVoicePresentation,
 } from "react-icons/fc";
 import profilePic from "../../assets/jayPic.jpg";
+import { Zoom, Fade } from "react-reveal";
 
 const Menu = ({ toggle }) => {
   return (
     <>
       {toggle ? (
         <>
-          <div className="profile-pic">
-            <img src={profilePic} alt="Profile pic" />
-          </div>
-          <div className="nav">
-            <Link
-              activeClass="active"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <div className="nav-item">
-                <FcHome />
-                <p>Home</p>
-              </div>
-            </Link>
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <div className="nav-item">
-                <FcAbout />
-                <p>About</p>
-              </div>
-            </Link>
-            <Link
-              activeClass="active"
-              to="experience"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <div className="nav-item">
-                <FcPortraitMode />
-                <p>Work Experience</p>
-              </div>
-            </Link>
-            <Link
-              activeClass="active"
-              to="teckStack"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <div className="nav-item">
-                <FcBiotech />
-                <p>Tech Stack</p>
-              </div>
-            </Link>
-            <Link
-              activeClass="active"
-              to="education"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <div className="nav-item">
-                <FcReadingEbook />
-                <p>Education</p>
-              </div>
-            </Link>
-            <Link
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <div className="nav-item">
-                <FcVideoProjector />
-                <p>Projects</p>
-              </div>
-            </Link>
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <div className="nav-item">
-                <FcContacts />
-                <p>Contact</p>
-              </div>
-            </Link>
-            {/* <div className="nav-item">
+          <Zoom>
+            <div className="profile-pic">
+              <img src={profilePic} alt="Profile pic" />
+            </div>
+          </Zoom>
+          <Fade left>
+            <div className="nav">
+              <Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={100}
+              >
+                <div className="nav-item">
+                  <FcHome />
+                  <p>Home</p>
+                </div>
+              </Link>
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={100}
+              >
+                <div className="nav-item">
+                  <FcAbout />
+                  <p>About</p>
+                </div>
+              </Link>
+              <Link
+                activeClass="active"
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={100}
+              >
+                <div className="nav-item">
+                  <FcPortraitMode />
+                  <p>Work Experience</p>
+                </div>
+              </Link>
+              <Link
+                activeClass="active"
+                to="achievements"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={100}
+              >
+                <div className="nav-item">
+                  <FcRating />
+                  <p>Achievements</p>
+                </div>
+              </Link>
+              <Link
+                activeClass="active"
+                to="teckStack"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={100}
+              >
+                <div className="nav-item">
+                  <FcBiotech />
+                  <p>Tech Stack</p>
+                </div>
+              </Link>
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={100}
+              >
+                <div className="nav-item">
+                  <FcVideoProjector />
+                  <p>Projects</p>
+                </div>
+              </Link>
+              <Link
+                activeClass="active"
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={100}
+              >
+                <div className="nav-item">
+                  <FcReadingEbook />
+                  <p>Education</p>
+                </div>
+              </Link>
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={100}
+              >
+                <div className="nav-item">
+                  <FcContacts />
+                  <p>Contact</p>
+                </div>
+              </Link>
+              {/* <div className="nav-item">
               <FcVoicePresentation />
               <p>Testimonial</p>
             </div> */}
-          </div>
+            </div>
+          </Fade>
         </>
       ) : (
         <>
@@ -129,8 +148,8 @@ const Menu = ({ toggle }) => {
               to="home"
               spy={true}
               smooth={true}
-              offset={50}
-              duration={500}
+              offset={0}
+              duration={100}
             >
               <div className="nav-item">
                 <FcHome title="Home" />
@@ -141,8 +160,8 @@ const Menu = ({ toggle }) => {
               to="about"
               spy={true}
               smooth={true}
-              offset={50}
-              duration={500}
+              offset={0}
+              duration={100}
             >
               <div className="nav-item">
                 <FcAbout title="About" />
@@ -153,8 +172,8 @@ const Menu = ({ toggle }) => {
               to="experience"
               spy={true}
               smooth={true}
-              offset={50}
-              duration={500}
+              offset={0}
+              duration={100}
             >
               <div className="nav-item">
                 <FcPortraitMode title="Work Experience" />
@@ -162,11 +181,23 @@ const Menu = ({ toggle }) => {
             </Link>
             <Link
               activeClass="active"
+              to="achievements"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={100}
+            >
+              <div className="nav-item">
+                <FcRating title="Achievements" />
+              </div>
+            </Link>
+            <Link
+              activeClass="active"
               to="teckStack"
               spy={true}
               smooth={true}
-              offset={50}
-              duration={500}
+              offset={0}
+              duration={100}
             >
               <div className="nav-item">
                 <FcBiotech title="Tech Stack" />
@@ -174,23 +205,11 @@ const Menu = ({ toggle }) => {
             </Link>
             <Link
               activeClass="active"
-              to="education"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <div className="nav-item">
-                <FcReadingEbook title="Education" />
-              </div>
-            </Link>
-            <Link
-              activeClass="active"
               to="projects"
               spy={true}
               smooth={true}
-              offset={50}
-              duration={500}
+              offset={0}
+              duration={100}
             >
               <div className="nav-item">
                 <FcVideoProjector title="Projects" />
@@ -198,11 +217,23 @@ const Menu = ({ toggle }) => {
             </Link>
             <Link
               activeClass="active"
+              to="education"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={100}
+            >
+              <div className="nav-item">
+                <FcReadingEbook title="Education" />
+              </div>
+            </Link>
+            <Link
+              activeClass="active"
               to="contact"
               spy={true}
               smooth={true}
-              offset={50}
-              duration={500}
+              offset={0}
+              duration={100}
             >
               <div className="nav-item">
                 <FcContacts title="Contact" />
